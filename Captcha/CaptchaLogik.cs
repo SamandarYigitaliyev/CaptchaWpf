@@ -32,7 +32,7 @@ namespace Captcha
             using (Graphics graph = Graphics.FromImage(baseMap))
             {
                 Random random = new Random();
-                graph.Clear(Color.Red);
+                graph.Clear(Color.AliceBlue);
                 DrawCaptchaCode(graph, captchaCode, width, height);
                 DrawDisorderLine(graph, random, width, height);
                 AdjustRippleEffect(baseMap, width, height);

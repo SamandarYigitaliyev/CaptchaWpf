@@ -15,8 +15,8 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <WrapPanel Background="AliceBlue">
-                <Image  Height="50" Width="200" Stretch="Uniform" Name="luc"></Image>
+            <WrapPanel >
+                <Image   Height="50" Width="200" Stretch="Uniform" Name="luc"></Image>
                 <Button Click="button_click" HorizontalAlignment="Right" VerticalAlignment="Center" 
                         Style="{StaticResource MaterialDesignIconButton}" ToolTip="MaterialDesignIconButton">
                     <materialDesign1:PackIcon Kind="Reload">
